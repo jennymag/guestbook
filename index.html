@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Guestbook</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Jenny's Guestbook</h1>
+        <h2>Add a post to the Guestbook</h2>
+        <form id="form">
+            <label id="nameLable" for="nick"> Name:</label>
+            <input type="text" id="nick">
+            <label id="textLable" for="message"> Message:</label>
+            <textarea id="message"></textarea>
+            <button id="submit">submit</button>
+        <h2>Guestbook entries</h2>
+            <div id="msg">
+    <pre></pre>
+        </div>
+        </form>
+         <div id="commentSection">
+        </div> 
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>

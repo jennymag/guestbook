@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+body {
+  background-color: rgba(167, 227, 194, 0.824);
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+h1 {
+  font-size: 2rem;
+  background-color: yellow;
+  max-width: 340px;
+  padding-left: 20px;
+}
+h2 {
+  font-size: 25px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+input,
+label {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+button {
+  margin: 50px 0px 60px;
+  font-size: 17px;
+  max-width: 120px;
+  border: 1px solid black;
+}
+button:hover {
+  background-color: lightgray;
+}
+textarea {
+  min-height: 120px;
+}
+.nick {
+  font-weight: bold;
+  padding: 10px 10px 10px 0;
+}
+.date {
+  color: blue;
+  letter-spacing: 2px;
+  font-size: 13px;
+  border-top: 1px dotted gray;
+  padding: 10px 0 10px;
+}
+.comment {
+  letter-spacing: 1.5px;
+  border: 2px dotted gray;
+  padding: 5px 10px 10px 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  max-width: 600px;
+}
