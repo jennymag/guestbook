@@ -4,7 +4,7 @@ This is a guestbook web app. During this project I've learned how to use localSt
 Go and take a look! ---> https://jennymag.github.io/guestbook/
 
 # Story
-I wanted to learn how to build a comment section and started with this old school project.
+I wanted to learn how to build a comment section and started with this project.
 
 # Me
 https://jennym.se
